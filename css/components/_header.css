@@ -1,0 +1,167 @@
+.article{
+    background-color:#F9F6F5;
+}
+
+
+.header {
+    padding: 40px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo3 {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-a {
+    cursor: pointer;
+    line-height: 20px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: black;
+    transition: color .3s ease;
+    /* margin-right: 40px; */
+}
+
+.nav-a:hover{
+    color: blue;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+
+}
+
+
+
+.logo2-img{
+    width: 24px;
+    height: 24px;
+    column-gap: 24px;
+}
+
+.nav-a2{
+    margin-left: 100px
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.profile{
+    width: 24px;
+    height: 24px;
+}
+
+.profile img{
+    width: 24px;
+    height: 24px;
+}
+
+.cart img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-line{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+
+.menu-line::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: #000; /* Adjust color to match your image */
+    position: absolute;
+  }
+
+
+  .burger-icon {
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Hidden menu styles */
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show menu when .open class is added */
+.menu.open {
+    display: block;
+}
+
+
+.icons{
+    column-gap: 24px;
+}
