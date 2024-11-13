@@ -1,0 +1,34 @@
+.Perfect{
+    padding: 175px 0;
+
+
+}
+
+.Perfect-container{
+    display: flex;
+    
+}
+
+
+.Perfect-content{}
+
+.Perfect-content h2{
+    width: 520px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.Perfect-content p{
+    margin-top: 20px;
+    width: 608px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.Perfect-img{
+    margin-left: 32px;
+}
+

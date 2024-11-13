@@ -1,0 +1,41 @@
+.star{
+    padding: 130px;
+}
+.star-container{
+    display: flex;
+}
+
+.star-content h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+
+.star-container img{
+    margin-bottom: 43px;
+}
+
+.star-container p{
+    width: 608px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 79px;
+}
+
+
+.star-img{
+    margin-right: 54px;
+}
+
+.star-content a{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #6FB587;
+    
+}
+
+.next{
+    margin-left: 20px;
+}
